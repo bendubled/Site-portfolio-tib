@@ -1,0 +1,54 @@
+/* Theme Name: site_portfolio_tib
+Description: Creation Theme by Ben    */
+
+.logo_home_bloc{
+   hight:250px; 
+   width:250px;
+   margin:auto;
+   margin-top:5%;
+   margin-bottom: 5%;
+}
+.logo_home{
+    width:100%;
+    hight:250px;
+    
+    
+    
+}
+.picture_bloc {
+    height:230px;
+    width:300px;
+    margin-bottom: 2%;
+    
+   
+}
+.pict_size:hover{
+    background-color: grey;
+    opacity:0.5;
+    transition:all 1s;
+    
+}
+
+.logo_rs{
+    width:95px;
+    hight:40px;
+    margin:auto;
+}
+.icone_contact_bloc{
+    margin:auto;
+    margin-top:5%;
+    width:50px;
+    margin-bottom: 10%;
+}
+.icone_contact{
+    height:41px;
+    width:100%;
+    
+    
+}
+.pict_size {
+    width:100%;
+    height:230px;
+    
+    
+}
