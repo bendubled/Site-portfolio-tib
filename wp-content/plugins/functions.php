@@ -31,9 +31,10 @@ function display_img(){
         $bdd = $db->query("SELECT * FROM photo_home");
         $result = $bdd->fetch(); // retourne sous forme d'un tableau la PREMIERE valeur.
         foreach ($bdd as $result) {
-            echo '<div data-aos="zoom-in"  class="picture_bloc col-lg-3 col-md-6 col-12">' . 
+            echo '<div data-aos="zoom-in"  class="picture_bloc col-lg-3 col-md-6 col-12">' . '<a href="http://localhost/wordpress/page_photo/">' .
                    '<img data-tilt class="pict_size" src="' . $result['url'] . '"/>' . 
                     '<p class="detail_photo_home">' . $result['id'] . '</p>'.
+                    '</a>' .
                 '</div>';
         }
     } catch (PDOException $e) {
@@ -42,3 +43,6 @@ function display_img(){
     }
 }
 
+function display_details_photo(){
+    
+}
