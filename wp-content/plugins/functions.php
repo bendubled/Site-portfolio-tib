@@ -3,24 +3,25 @@
 /*
   Plugin Name: function
  */
+// include_once (plugin_dir_path(__FILE__) . '..wp-content/themes/Site_portfolio_tib/index.php');
+//$connexion_string = "mysql:dbname=wordpress;host=127.0.0.1;charset=utf8";
+//
+//$login = "root";
+//
+//$mdp = "";
+//
+//function openBDD()
+//
+//{
+//    global $connexion_string;
+//    global $login;
+//    global $mdp;
+//    $bdd = new PDO($connexion_string, $login, $mdp);
+//    return $bdd;
+//    
+//}
+include_once (plugin_dir_path(__FILE__) . 'parameters/parameters.php');
 
-$connexion_string = "mysql:dbname=wordpress;host=127.0.0.1;charset=utf8";
-
-$login = "root";
-
-$mdp = "";
-
-function openBDD()
-
-{
-    global $connexion_string;
-    global $login;
-    global $mdp;
-    $bdd = new PDO($connexion_string, $login, $mdp);
-    return $bdd;
-    
-}
-display_img();
 
 function display_img(){
     try {

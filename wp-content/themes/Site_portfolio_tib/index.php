@@ -13,7 +13,12 @@
        <script src="wp-content/themes/Site_portfolio_tib/libraries/aos-master/aos-master/dist/aos.js"></script>
         <title>Titre</title>
     </head>
-
+    <?php
+// get_template_part("../../plugins/functions.php");
+// get_template_part("../../plugins/create_table.php");
+include_once (plugin_dir_path(__FILE__) . '../../plugins/functions.php');
+// display_img();
+ ?>
     <body>
         <section>
             <div class="container">
@@ -31,6 +36,12 @@
                     <img class="icone_contact" src="wp-content/themes/Site_portfolio_tib/images/icone_black_contact.png" alt="CONTACT" />
                 </div>
                 <div id="list_photos" class="row">
+                    <?php
+                     if (function_exists('display_img')) {
+                     echo display_img();
+                    }
+                    ?>
+                    
                 </div>
             </div>
         </section>
