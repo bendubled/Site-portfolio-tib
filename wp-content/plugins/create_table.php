@@ -41,6 +41,6 @@ CREATE TABLE IF NOT EXISTS `photo_home2` (
   `url` varchar(250) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=40 DEFAULT CHARSET=latin1;
-  ALTER TABLE `photo_home` ENGINE=InnoDB
+  
  ");
 }

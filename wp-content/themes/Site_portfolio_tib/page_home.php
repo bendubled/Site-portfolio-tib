@@ -18,8 +18,7 @@ Template Name: page_home
         <title>Titre</title>
     </head>
     <?php
-// get_template_part("../../plugins/functions.php");
-// get_template_part("../../plugins/create_table.php");
+
 include_once (plugin_dir_path(__FILE__) . '../../plugins/functions.php');
 // display_img();
  ?>
