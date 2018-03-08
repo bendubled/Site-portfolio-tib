@@ -46,3 +46,8 @@ body{
     background-color: black;
 }
 
+.photo_page_photo{
+    height:450px;
+    width:100%;
+    borde:1px solid black;
+}

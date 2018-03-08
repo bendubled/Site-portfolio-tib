@@ -37,11 +37,11 @@ Template Name: page_photo
                     </div>
                 </div>-->
 <div class="row">
-                <div  class="icone_contact_bloc">
+                <div  class="icone_contact_bloc col-lg-12">
                     <img class="icone_contact" src="http://localhost/wordpress/wp-content/themes/Site_portfolio_tib/images/icone_black_contact.png" alt="CONTACT" />
                 </div>
-    <div>
-        
+    <div class="photo_page_photo col-lg-12">
+        <img class="" src="wp-content/themes/Site_portfolio_tib/images/riviere.jpg" />
     </div>
                </div>
             </div>

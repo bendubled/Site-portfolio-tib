@@ -8,7 +8,7 @@ Template Name: page_home
 <html>
     <head>
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="wp-content/themes/Site_portfolio_tib/stylew.css" />
+        <link rel="stylesheet" href="wp-content/themes/Site_portfolio_tib/style.css" />
         <link rel="stylesheet" href="wp-content/themes/Site_portfolio_tib/libraries/aos-master/aos-master/dist/aos.css" />
        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
