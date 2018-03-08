@@ -1,6 +1,6 @@
 <?php
 
-$connexion_string = "mysql:dbname=wordpress;host=127.0.0.1;charset=utf8";
+$connexion_string = "mysql:dbname=wordpress;localhost;charset=utf8";
 
 $login = "root";
 
