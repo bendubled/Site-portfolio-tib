@@ -15,6 +15,10 @@ Description: Creation Theme by Ben    */
     
     
 }
+.logo{
+    height:35px;
+    width:35px;
+}
 .picture_bloc {
     height:230px;
     width:300px;
@@ -50,5 +54,45 @@ Description: Creation Theme by Ben    */
     width:100%;
     height:230px;
     
+    
+}
+.cadre_car{
+    margin:auto;
+    width:1109px;
+    margin-top:10%;
+    margin-bottom:5%;
+}
+.overrides .img fluid {
+  height: 276px;
+    width: 100%;
+
+}
+.taille{
+    width: 1109px;
+    height:250px!important;
+}
+.taille2{
+    height:250px;
+}
+.title_bar_photo{
+    font-size: 150%;
+/*    border:1px solid black;*/
+    text-align: center;
+    font-family: Auriol;
+}
+.style_citation{
+    font-size:190%;
+    text-align: center;
+    font-family: Auriol;
+}
+.taille_cote_citation{
+    font-size: 200%;
+}
+body{background-color: black;}
+
+.title_bar_photo:hover{
+    background-color: grey;
+    opacity:0.5;
+    transition:all 1s;
     
 }

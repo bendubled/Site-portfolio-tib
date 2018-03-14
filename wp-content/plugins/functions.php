@@ -66,3 +66,29 @@ function display_details_photo() {
         return $e->getMessage();
     }
 }
+
+//function form_insert_to_db(){
+//    $titre = $_POST['titre'];
+//    $date = $_POST['date'];
+//    $details = $_POST['details'];
+//    $url =$_POST['url'];
+//    
+//    global $wpdb;
+//     $query = $wpdb->insert(
+//                    'tes', //table name
+//                    array(
+//                'url'=> $url,
+//                'details' => $titre,
+//                'date' => $date,
+//                'titre' => $details,
+//                
+//                    ), //columns
+//                    array(
+//                '%s',
+//                '%s',
+//                '%s',
+//                '%s',
+//                
+//                    )
+//            );
+//}
