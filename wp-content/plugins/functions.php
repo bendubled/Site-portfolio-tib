@@ -57,8 +57,8 @@ function display_details_photo() {
 
         $result = $bdd->fetch();
 
-        echo '<div class="row">' . '<div class="col-lg-4 details_text">' . '<p class="icone_contact_bloc">' .
-             '<img class="icone_contact" src="http://localhost/wordpress/wp-content/themes/Site_portfolio_tib/images/icone_black_contact.png" alt="CONTACT" />' . '</p>' . '<p>' . $result['titre'] . '</p>' . '<p>' . $result['date'] . '</p>' . $result['details'] . '<p>' . '</p>' . '</div>' .
+        echo '<div class="row">' . '<div class="col-lg-4 details_text">'  .
+              '<p>' . $result['titre'] . '</p>' . '<p>' . $result['date'] . '</p>' . $result['details'] . '<p>' . '</p>' . '</div>' .
              '<img class="img_page_photo col-lg-8" src="' . $result['url'] . '" />'
         . '</div>';
     } catch (PDOException $e) {

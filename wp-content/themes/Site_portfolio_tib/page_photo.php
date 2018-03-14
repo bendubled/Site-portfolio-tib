@@ -14,6 +14,7 @@ Template Name: page_photo
        <script type="text/javascript" src="wp-content/themes/Site_portfolio_tib/custom/requete.js"></script>
        <script type="text/javascript" src="http://localhost/wordpress/wp-content/themes/Site_portfolio_tib/libraries/jQuery/jquery-3.2.1.js"></script>
        <script src="wp-content/themes/Site_portfolio_tib/libraries/aos-master/aos-master/dist/aos.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <title>Titre</title>
     </head>
     <?php
@@ -29,9 +30,21 @@ Template Name: page_photo
             <section>
                 <div class="container">
 
-                    <div data-tilt class="logo_home_bloc">
-                        <a href="http://localhost/wordpress/"><img class="logo_home " src="http://localhost/wordpress/wp-content/themes/Site_portfolio_tib/images/tib.jpg" alt="Papa Ours" /></a>
-                    </div>
+                    <nav class="navbar navbar-expand-lg navbar-dark  nav_bar_color">
+  <a class="navbar-brand" href="#"><img class="d-block img-fluid logo" src="http://localhost/wordpress/wp-content/themes/Site_portfolio_tib/images/tib.jpg" alt="First slide"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="#">Contact</a>
+      <a class="nav-item nav-link" href="http://localhost/wordpress/page_admin/">Administration</a>
+       
+      
+    </div>
+  </div>
+</nav>
                     <?php
                     if (function_exists('display_details_photo')) {
                         echo display_details_photo();
