@@ -32,7 +32,7 @@ include_once (plugin_dir_path(__FILE__) . '../../plugins/functions.php');
    
         <section>
             <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <nav class="navbar navbar-expand-lg navbar-dark  nav_bar_color">
   <a class="navbar-brand" href="#"><img class="d-block img-fluid logo" src="wp-content/themes/Site_portfolio_tib/images/tib.jpg" alt="First slide"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -58,7 +58,7 @@ include_once (plugin_dir_path(__FILE__) . '../../plugins/functions.php');
                    <p class="style_citation"> <span class="taille_cote_citation">"</span>Si vous vous contentez de voir ce qui est évident, vous ne verrez rien<span class="taille_cote_citation">"</span></p>
                 </div>
                 
-                <div class="cadre_car">
+                <div class="cadre_car col-lg-12 col-md-12 col-12">
                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
