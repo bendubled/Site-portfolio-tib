@@ -33,14 +33,14 @@ include_once (plugin_dir_path(__FILE__) . '../../plugins/functions.php');
         <section>
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-dark  nav_bar_color">
-  <a class="navbar-brand" href="#"><img class="d-block img-fluid logo" src="wp-content/themes/Site_portfolio_tib/images/tib.jpg" alt="First slide"></a>
+  <a class="navbar-brand" href="#"><img class="d-block img-fluid logo" src="wp-content/themes/Site_portfolio_tib/images/tib.jpg" ></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
       <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Contact</a>
+      <a class="nav-item nav-link" href="http://localhost/wordpress/page_formulaire">Contact</a>
       <a class="nav-item nav-link" href="http://localhost/wordpress/page_admin/">Administration</a>
        
       

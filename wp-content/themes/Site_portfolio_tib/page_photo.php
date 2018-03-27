@@ -31,7 +31,7 @@ Template Name: page_photo
                 <div class="container">
 
                     <nav class="navbar navbar-expand-lg navbar-dark  nav_bar_color">
-  <a class="navbar-brand" href="#"><img class="d-block img-fluid logo" src="http://localhost/wordpress/wp-content/themes/Site_portfolio_tib/images/tib.jpg" alt="First slide"></a>
+  <a class="navbar-brand" href="#"><img class="d-block img-fluid logo" src="http://localhost/wordpress/wp-content/themes/Site_portfolio_tib/images/tib.jpg" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

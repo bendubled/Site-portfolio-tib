@@ -59,7 +59,7 @@ Description: Creation Theme by Ben    */
 .cadre_car{
     margin:auto;
     width:1109px;
-    margin-top:10%;
+    margin-top:5%;
     margin-bottom:5%;
 }
 .overrides .img fluid {
@@ -86,6 +86,7 @@ Description: Creation Theme by Ben    */
     text-align: center;
     font-family: Lobster;
     color:white;
+    margin-top:5%;
 }
 .taille_cote_citation{
     font-size: 200%;

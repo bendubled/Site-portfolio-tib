@@ -31,6 +31,7 @@ and open the template in the editor.
 .details_text{
     color:white;
     margin-top:5%;
+    
 }
 
 .photo_page_photo{
@@ -49,4 +50,7 @@ section{
 }
 .nav_bar_color{
     background-color: #171515!important;
+}
+.style_details_pagge_photo{
+    font-family: Lobster;
 }
