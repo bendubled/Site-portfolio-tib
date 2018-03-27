@@ -5,7 +5,7 @@ Template Name: page_administration
 ?>
 <!DOCTYPE html>
 <?php
-//include_once (plugin_dir_path(__FILE__) . '../../plugins/traitement_upload.php');
+
 ?>
 <html>
     <head>

@@ -1,22 +1,3 @@
-// function formulaire(){
-//     console.log("aaaaaaaaaa");
-//  
-//    $.ajax({url: 'http://http://localhost/wordpress/page_admin/',
-//        type: 'POST',
-//        dataType: 'string',
-//        data: {info: 'lalala'},
-//        success: function (string) {
-//            console.log("OKok");
-//            
-//            consol.log('eeeeeeeeeeeeeeerrrrrrrrrrrrrooooooorrrrrrrrrr');
-//
-//            
-//           
-//
-//
-//        }
-//    });
-//}
 
 
 
@@ -37,7 +18,7 @@ function formulaire(){
             else{
                 alert("upload success!!")
             }
-//            $('#mes_erreur').html(output);
+
         }
     });
 

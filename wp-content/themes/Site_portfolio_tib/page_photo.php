@@ -19,10 +19,7 @@ Template Name: page_photo
     </head>
     <?php
     include_once (plugin_dir_path(__FILE__) . '../../plugins/functions.php');
-// get_template_part("../../plugins/functions.php");
-// get_template_part("../../plugins/create_table.php");
-//include_once (plugin_dir_path(__FILE__) . '../../plugins/functions.php');
-// display_img();
+
  ?>
    
     <body>
@@ -37,8 +34,8 @@ Template Name: page_photo
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#">Contact</a>
+      <a class="nav-item nav-link active" href="http://localhost/wordpress/">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="http://localhost/wordpress/page_formulaire">Contact</a>
       <a class="nav-item nav-link" href="http://localhost/wordpress/page_admin/">Administration</a>
        
       
