@@ -2,17 +2,20 @@
 Description: Creation Theme by Ben    */
 
 .logo_home_bloc{
-   hight:250px; 
-   width:250px;
+   hight:150px; 
+   width:150px;
    margin:auto;
-   margin-top:5%;
-   margin-bottom: 5%;
+/*   margin-top:5%;
+   margin-bottom: 5%;*/
 }
 .logo_home{
     width:100%;
-    hight:250px;
+    height:150px;
     
     
+    
+}
+.logo2{
     
 }
 .logo{
@@ -59,8 +62,8 @@ Description: Creation Theme by Ben    */
 .cadre_car{
     margin:auto;
     width:1109px;
-    margin-top:5%;
-    margin-bottom:5%;
+
+    margin-bottom:1%
 }
 .overrides .img fluid {
   height: 276px;
@@ -86,7 +89,7 @@ Description: Creation Theme by Ben    */
     text-align: center;
     font-family: Lobster;
     color:white;
-    margin-top:5%;
+/*    margin-top:5%;*/
 }
 .taille_cote_citation{
     font-size: 200%;

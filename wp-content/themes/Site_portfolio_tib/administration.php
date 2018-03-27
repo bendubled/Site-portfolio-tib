@@ -47,7 +47,7 @@ Template Name: page_administration
            <div class="form_placement">
         <form method="post" action="http://localhost/wordpress/wp-content/plugins/traitement_upload.php" enctype="multipart/form-data" onsubmit="formulaire()">
      <label for="icone" class="design_form">Upload image :</label><br />
-     <input type="file" name="icone" id="icone" /><br />
+     <input type="file" name="icone" id="icone" style="margin-left:12%"/><br />
 <!--     <label for="mon_fichier">Fichier (tous formats | max. 1 Mo) :</label><br />
      <input type="hidden" name="MAX_FILE_SIZE" value="1048576" />
      <input type="file" name="mon_fichier" id="mon_fichier" /><br />-->
@@ -60,8 +60,8 @@ Template Name: page_administration
 </form>
            
               <form method="post" action="http://localhost/wordpress/wp-content/plugins/traitement_upload.php" enctype="multipart/form-data" onsubmit="formulaire()">
-     <label for="icone" class="design_form">MULTI :</label><br />
-     <input type="file" name="icone" id="icone" /><br />
+     <label for="icone" class="design_form">MULTI Upload :</label><br />
+     <input type="file" name="icone" id="icone" style="margin-left:12%" /><br />
 
      <input type="submit" name="submit" value="Envoyer" />
          

@@ -47,12 +47,15 @@ include_once (plugin_dir_path(__FILE__) . '../../plugins/functions.php');
     </div>
   </div>
 </nav>
+                <div class="logo_home_bloc">
+                    <img class="d-block img-fluid logo_home" src="wp-content/themes/Site_portfolio_tib/images/tib.jpg">
+                </div>
 <div class="row">  
-                    <div class="logo_rs">
+<!--                    <div class="logo_rs">
                         <i class="fab fa-twitter-square fa-2x"></i>
                         <i class="fab fa-facebook fa-2x"></i>
                         <i class="fab fa-google-plus-square fa-2x"></i>
-                    </div>
+                    </div>-->
                 </div>
                 <div>
                    <p class="style_citation"> <span class="taille_cote_citation">"</span>Si vous vous contentez de voir ce qui est évident, vous ne verrez rien<span class="taille_cote_citation">"</span></p>
